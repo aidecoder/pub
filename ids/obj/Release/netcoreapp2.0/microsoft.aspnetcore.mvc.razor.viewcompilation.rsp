@@ -1,0 +1,17 @@
+C:\ids4e\ids
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=ids4e
+--content-root=C:\ids4e\ids
+--file=C:\ids4e\ids\Views\Account\LoggedOut.cshtml
+--file=C:\ids4e\ids\Views\Account\Login.cshtml
+--file=C:\ids4e\ids\Views\Account\Logout.cshtml
+--file=C:\ids4e\ids\Views\Consent\Index.cshtml
+--file=C:\ids4e\ids\Views\Consent\_ScopeListItem.cshtml
+--file=C:\ids4e\ids\Views\Diagnostics\Index.cshtml
+--file=C:\ids4e\ids\Views\Grants\Index.cshtml
+--file=C:\ids4e\ids\Views\Home\Index.cshtml
+--file=C:\ids4e\ids\Views\Shared\Error.cshtml
+--file=C:\ids4e\ids\Views\Shared\_Layout.cshtml
+--file=C:\ids4e\ids\Views\Shared\_ValidationSummary.cshtml
+--file=C:\ids4e\ids\Views\_ViewImports.cshtml
+--file=C:\ids4e\ids\Views\_ViewStart.cshtml

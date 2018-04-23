@@ -1,0 +1,22 @@
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\bin\Debug\netcoreapp2.0\Client.dll
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\bin\Debug\netcoreapp2.0\Client.pdb
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.csprojResolveAssemblyReference.cache
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.dll
+c:\Users\serg\Documents\Visual Studio 2017\Projects\WebApplication3\Client\obj\Debug\netcoreapp2.0\Client.pdb
+C:\ids4d\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+C:\ids4d\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+C:\ids4d\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+C:\ids4d\Client\bin\Debug\netcoreapp2.0\Client.dll
+C:\ids4d\Client\bin\Debug\netcoreapp2.0\Client.pdb
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.csprojResolveAssemblyReference.cache
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.dll
+C:\ids4d\Client\obj\Debug\netcoreapp2.0\Client.pdb

@@ -1,0 +1,11 @@
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.csprojResolveAssemblyReference.cache
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.csproj.CoreCompileInputs.cache
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.AssemblyInfoInputs.cache
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.AssemblyInfo.cs
+C:\ids4e\ids\bin\Debug\netcoreapp2.0\ids4e.deps.json
+C:\ids4e\ids\bin\Debug\netcoreapp2.0\ids4e.runtimeconfig.json
+C:\ids4e\ids\bin\Debug\netcoreapp2.0\ids4e.runtimeconfig.dev.json
+C:\ids4e\ids\bin\Debug\netcoreapp2.0\ids4e.dll
+C:\ids4e\ids\bin\Debug\netcoreapp2.0\ids4e.pdb
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.dll
+C:\ids4e\ids\obj\Debug\netcoreapp2.0\ids4e.pdb

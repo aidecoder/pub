@@ -1,0 +1,11 @@
+C:\ids4e\OnlineApi\bin\Debug\netcoreapp2.0\Api.deps.json
+C:\ids4e\OnlineApi\bin\Debug\netcoreapp2.0\Api.runtimeconfig.json
+C:\ids4e\OnlineApi\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
+C:\ids4e\OnlineApi\bin\Debug\netcoreapp2.0\Api.dll
+C:\ids4e\OnlineApi\bin\Debug\netcoreapp2.0\Api.pdb
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.csprojResolveAssemblyReference.cache
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.AssemblyInfo.cs
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.dll
+C:\ids4e\OnlineApi\obj\Debug\netcoreapp2.0\Api.pdb
