@@ -109,6 +109,32 @@ namespace ids4e
                     AllowedCorsOrigins = { "http://localhost:5593" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
+                },
+
+                new Client
+                {
+                    ClientId = "js2",
+                    ClientName = "JS Client 2",
+                    ClientUri = "http://localhost:5594",
+
+                    AllowedGrantTypes = GrantTypes.Implicit,
+                    AllowAccessTokensViaBrowser = true,
+
+                    RedirectUris =
+                    {
+                        "http://localhost:5594/index.html",
+                        "http://localhost:5594/callback.html",
+
+//                        "http://localhost:5594/silent.html",
+                        "http://localhost:5594/callback-silent.html",
+
+                        "http://localhost:5594/popup.html",
+                    },
+
+                    PostLogoutRedirectUris = { "http://localhost:5594/index.html" },
+                    AllowedCorsOrigins = { "http://localhost:5594" },
+
+                    AllowedScopes = { "openid", "profile", "api1" }
                 }
             };
         }

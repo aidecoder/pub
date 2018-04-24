@@ -17,7 +17,8 @@ namespace Api
                 {
                     policy.WithOrigins(
                         "http://localhost:5593",
-                        "http://localhost:5592")
+                        "http://localhost:5592",
+                        "http://localhost:5594")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                 });
