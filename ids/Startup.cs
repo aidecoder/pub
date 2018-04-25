@@ -42,6 +42,7 @@ namespace ids4e
             })
                 .AddTestUsers(TestUsers.Users);
 
+            Config.ServerName = Configuration.GetValue<string>("ServerName", "localhost");
             // in-memory, code config
             builder.AddInMemoryIdentityResources(Config.GetIdentityResources());
             builder.AddInMemoryApiResources(Config.GetApis());

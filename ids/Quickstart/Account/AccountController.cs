@@ -66,7 +66,7 @@ namespace IdentityServer4.Quickstart.UI
             var vm = await BuildLoginViewModelAsync(returnUrl);
 
             ///////////////////////////
-            if (returnUrl.Contains("localhost%3A5594"))
+            if (returnUrl.Contains("%3A5594"))
                 return await ExternalLogin("Windows", returnUrl);
             ///////////////////////////
 

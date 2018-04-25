@@ -9,6 +9,7 @@ namespace ids4e
 {
     public static class Config
     {
+        public static string ServerName = "localhost";
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new IdentityResource[]
@@ -53,9 +54,9 @@ namespace ids4e
                     AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
                     ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
 
-                    RedirectUris = { "http://localhost:5001/signin-oidc" },
-                    FrontChannelLogoutUri = "http://localhost:5001/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc" },
+                    RedirectUris = { $"http://{ServerName}:5001/signin-oidc" },
+                    FrontChannelLogoutUri = $"http://{ServerName}:5001/signout-oidc",
+                    PostLogoutRedirectUris = { $"http://{ServerName}:5001/signout-callback-oidc" },
 
                     AllowOfflineAccess = true,
                     AllowedScopes = { "openid", "profile", "api1" }
@@ -73,14 +74,14 @@ namespace ids4e
 
                     RedirectUris =
                     {
-                        "http://localhost:5002/index.html",
-                        "http://localhost:5002/callback.html",
-                        "http://localhost:5002/silent.html",
-                        "http://localhost:5002/popup.html",
+                        $"http://{ServerName}:5002/index.html",
+                        $"http://{ServerName}:5002/callback.html",
+                        $"http://{ServerName}:5002/silent.html",
+                        $"http://{ServerName}:5002/popup.html",
                     },
 
-                    PostLogoutRedirectUris = { "http://localhost:5002/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5002" },
+                    PostLogoutRedirectUris = { $"http://{ServerName}:5002/index.html" },
+                    AllowedCorsOrigins = { $"http://{ServerName}:5002" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
                 },
@@ -89,24 +90,24 @@ namespace ids4e
                 {
                     ClientId = "js",
                     ClientName = "JS Client",
-                    ClientUri = "http://localhost:5593",
+                    ClientUri = $"http://{ServerName}:5593",
 
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
 
                     RedirectUris =
                     {
-                        "http://localhost:5593/index.html",
-                        "http://localhost:5593/callback.html",
+                        $"http://{ServerName}:5593/index.html",
+                        $"http://{ServerName}:5593/callback.html",
 
-//                        "http://localhost:5593/silent.html",
-                        "http://localhost:5593/callback-silent.html",
+//                        $"http://{ServerName}:5593/silent.html",
+                        $"http://{ServerName}:5593/callback-silent.html",
 
-                        "http://localhost:5593/popup.html",
+                        $"http://{ServerName}:5593/popup.html",
                     },
 
-                    PostLogoutRedirectUris = { "http://localhost:5593/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5593" },
+                    PostLogoutRedirectUris = { $"http://{ServerName}:5593/index.html" },
+                    AllowedCorsOrigins = { $"http://{ServerName}:5593" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
                 },
@@ -115,24 +116,24 @@ namespace ids4e
                 {
                     ClientId = "js2",
                     ClientName = "JS Client 2",
-                    ClientUri = "http://localhost:5594",
+                    ClientUri = $"http://{ServerName}:5594",
 
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
 
                     RedirectUris =
                     {
-                        "http://localhost:5594/index.html",
-                        "http://localhost:5594/callback.html",
+                        $"http://{ServerName}:5594/index.html",
+                        $"http://{ServerName}:5594/callback.html",
 
-//                        "http://localhost:5594/silent.html",
-                        "http://localhost:5594/callback-silent.html",
+//                        $"http://{ServerName}:5594/silent.html",
+                        $"http://{ServerName}:5594/callback-silent.html",
 
-                        "http://localhost:5594/popup.html",
+                        $"http://{ServerName}:5594/popup.html",
                     },
 
-                    PostLogoutRedirectUris = { "http://localhost:5594/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5594" },
+                    PostLogoutRedirectUris = { $"http://{ServerName}:5594/index.html" },
+                    AllowedCorsOrigins = { $"http://{ServerName}:5594" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
                 }
