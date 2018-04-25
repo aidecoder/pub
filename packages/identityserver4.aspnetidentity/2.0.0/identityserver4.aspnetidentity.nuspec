@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>IdentityServer4.AspNetIdentity</id>
+    <version>2.0.0</version>
+    <authors>Brock Allen,Dominick Baier</authors>
+    <owners>Brock Allen,Dominick Baier</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/IdentityServer/IdentityServer4.AspNetIdentity/blob/release/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/IdentityServer/IdentityServer4.AspNetIdentity</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/IdentityServer/Artwork/master/Logos/IDserver_icon128.jpg</iconUrl>
+    <description>ASP.NET Core Identity Integration for IdentityServer4</description>
+    <tags>OAuth2 OAuth 2.0 OpenID Connect Security Identity IdentityServer ASP.NET Identity</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="IdentityServer4" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
